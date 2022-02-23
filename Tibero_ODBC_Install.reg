@@ -1,0 +1,35 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI\ODBC Data Sources]
+"tibero"="Tibero 6 ODBC Driver"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI\tibero]
+"Driver"="c:\\opt\\tibero6\\client\\win64\\lib\\libtbcli.dll"
+"Description"="Tibero_Database_via_64bit_Driver"
+"User"="tibero_user"
+"Password"="tmax"
+"Server"="localhost"
+"Port"="8629"
+"Database"="tibero"
+"SID"=""
+"Connection Method"="DIRECT"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBCINST.INI]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBCINST.INI\ODBC Drivers]
+"Tibero 6 ODBC Driver"="Installed"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBCINST.INI\Tibero 6 ODBC Driver]
+"UsageCount"=dword:00000001
+"Driver"="c:\\opt\\tibero6\\client\\win64\\lib\\libtbcli.dll"
+"Setup"="c:\\opt\\tibero6\\client\\win64\\lib\\libtbcli.dll"
+"APILevel"="1"
+"SQLLevel"="1"
+"ConnectFunctions"="YYN"
+"DriverODBCVer"="03.52"
+"CPTimeout"="60"
+
