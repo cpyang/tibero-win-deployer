@@ -12,3 +12,11 @@ Run PowerShell with Administrator privilege
 * PS C:\Users\cpyang\tibero-win-deployer-main> .\install.ps1 -target <installation base directory> [-sid <Tibero SID>]    
   For Example, to create tibero6 under C:\opt\tibero6 and set SID to mytibero:  
   .\install.ps1 -target c:\opt -sid mytibero   
+
+  
+```powershell
+Invoke-WebRequest https://github.com/cpyang/tibero-win-deployer/archive/refs/heads/main.zip -OutFile tibero-win-deployer.zip  
+Expand-Archive tibero-win-deployer.zip -DestinationPath .  
+cd tibero-win-deployer-main  
+.\install.ps1 -target c:\opt -sid mytibero   
+```
