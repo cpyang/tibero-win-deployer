@@ -2,7 +2,7 @@
 Automate Installation of Tibero Database on Windows (x86-64) Platform  
 Run PowerShell with Administrator privilege  
 
-* PS C:\Users\cpyang> hostname
+* PS C:\Users\cpyang> hostname  
   Login TechNet - https://technet.tmaxsoft.com/en/front/main/main.do  
   Select Demo License Request, request license for _hostname_ from the previous command 
   Get _license.xml_ from email, and put into installer folder  
