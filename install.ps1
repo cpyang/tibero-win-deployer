@@ -119,7 +119,7 @@ ADD-PATH($TB_HOME + "\client\bin")
 
 $license = 'license.xml'
 if (Test-Path -Path $license -PathType Leaf) {
-	Copy-Item -Destination C:\opt\tibero6\license $license
+	Copy-Item -Destination $TB_HOME\license $license
 } else {
 	Write-Host "License file [$license] not found."
 	Exit 1
