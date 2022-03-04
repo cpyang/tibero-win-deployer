@@ -1,4 +1,4 @@
-# tibero-win-deployer
+# tibero-win-install
 Automate Installation of Tibero Database on Windows (x86-64) Platform  
 Run PowerShell with Administrator privilege  
 
@@ -17,8 +17,8 @@ Run PowerShell with Administrator privilege
   
 ```powershell
 hostnme
-Invoke-WebRequest https://github.com/cpyang/tibero-win-install/archive/refs/heads/main.zip -OutFile tibero-win-deployer.zip  
-Expand-Archive tibero-win-deployer.zip -DestinationPath .  
-cd tibero-win-deployer-main  
+Invoke-WebRequest https://github.com/cpyang/tibero-win-install/archive/refs/heads/main.zip -OutFile tibero-win-install.zip  
+Expand-Archive tibero-win-install.zip -DestinationPath .  
+cd tibero-win-install-main  
 .\install.ps1 -target c:\opt -sid mytibero   
 ```
